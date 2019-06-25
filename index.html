@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<title>Title</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+          
+         <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a></li>
+                <li><a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a></li>
+                <li><a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a></li>
+       
+        </ul>   
+      
+        </div>
+      
+        
+      
+      <!-- First Parallax Image with Logo Text -->
+      <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small"></span> PORTFOLIO</span>
+        </div>
+      </div>
+      
+      <!-- Container (About Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="text-center">ABOUT ME</h3>
+        <p class="text-center"><em>I love music</em></p>
+        <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="w3-row">
+          <div class="w3-col m6 text-center w3-padding-large">
+            <p><b><i class="fa fa-user text-center"></i>Eric Fruelda</b></p><br>
+           
+          </div>
+      
+         
+        </div>
+        <p class="w3-large text-center w3-padding-16"><strong>SKILLS:</strong></p>
+      
+        <p class="w3-wide text-center"><i class="fa fa-laptop"></i>HTML</p>
+       
+        <p class="w3-wide text-center"><i class="fa fa-laptop"></i>CSS</p>
+        
+        <p class="w3-wide text-center"><i class="fa fa-laptop"></i>BOOTSTRAP</p>
+
+        <p class="w3-wide text-center"><i class="fa fa-laptop"></i>JAVASCRIPT</p>
+      
+      
+      
+        
+      
+      <!-- Second Parallax Image with Portfolio Text -->
+      <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+          <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+      </div>
+      
+      <!-- Container (Portfolio Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="text-center">MY PROJECTS</h3>
+        <p class="text-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+      
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="row">
+          <div class="col m6 text-center" >
+            <a href="./unit4game/index.html" target="blank"><img src="thanos.jpg" style="width:30%" onclick="onClick(this)"  alt="Thanos Crsytal Collector"></a>
+         <p>Thanos Crystal Game</p>
+        </div>
+      
+         <div class="col m6 text-center">
+            <a href=" ./assets/index.html " target="blank"><img src="trivia.jpg" style="width:30%" onclick="onClick(this)" class="w3-hover-opacity" alt="Psychic Game"></a>
+          <p>Psychic Game</p>
+            </div>
+      </div>
+      
+      <!-- Third Parallax Image with Portfolio Text -->
+      <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+      </div>
+      
+      <!-- Container (Contact Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="text-center">MY CONTACTS</h3>
+       
+      
+          <div class="w3-col m8 w3-panel text-center">
+            <div class="w3-large w3-margin-bottom text-center">
+              <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge text-center"></i> New Jersey, USA<br>
+              <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge text-center"></i> Phone: +00 225522552<br>
+              <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge text-center"></i><a href="mailto:e_fruelda20@yahoo.com">e_fruelda20@yahoo.com</a><br>
+            </div>
+           
+           
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off text-center ">
+        <a href="#home" class="w3-button w3-light-grey text-center"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section bg-secondary text-white p-5 bg-secondary text-white text-center">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat-square"></i>
+                <i class="fab fa-youtube"></i>
+
+        </div>
+        
+      </footer>
+       
+</body>
+</html>
